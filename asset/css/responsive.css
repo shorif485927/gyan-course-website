@@ -1,0 +1,555 @@
+
+/*  */
+
+   @media (max-width:1200px){
+    #events__section .col-lg-4{
+
+        display: none;
+    }
+   }
+
+/*  */
+
+
+/*  */
+
+@media (min-width:1001px){
+    header {
+        font-size: 16px;
+   }
+
+   .header__1  {
+    display: block;
+  }
+
+
+/* 
+
+
+
+
+
+  .header__1 a{
+    margin: 0 7px;
+     color: var(--third-color) ;
+     margin-top: 5px;
+  }
+
+   header a{
+     color: var(--third-color);
+     transition: .5s;
+   }
+
+   header a:hover{
+     color: var(--secondary-color);
+   } */
+
+
+
+  }
+
+/*  */
+ 
+
+    @media (max-width:992px){
+      .courses__card{
+        margin-bottom: 100px;
+        padding-bottom: 50px;
+      }
+    }
+
+
+/*  */
+
+
+
+
+                /*  */
+@media (max-width:1000px){
+    .header__1  {
+        display: none;
+   }
+  }
+               /** 0-1200px starts   */
+
+
+               @media (max-width:1200px){
+            
+               .about__card{
+                display: none;
+                
+                }
+
+        .about__card__phone{
+          display: block;
+        }       
+
+        .about__heading{
+          text-align: center;
+        margin: 50px  0;
+        padding: 0;
+            }
+            
+              }
+
+                /*  /*/
+
+
+   /*! 0 to 575px  starts   */
+
+@media (max-width:575px){
+     
+
+     #banner__section h4{
+       font-size: 30px;
+     }
+     #banner__section h1{
+      font-size: 35px;
+      font-weight: bold;
+     }
+     #banner__section p{
+      font-size: 12px;
+     }
+
+#banner__section .container{
+height: 100%;
+position: relative;
+
+}
+    #banner__section  .row{       
+position: absolute;
+top: 50%;
+transform: translateY(-40%);
+    }
+
+    .btn{
+         font-size: 16px;
+    }
+/* ------------ */
+
+    #about{
+          position: relative;
+         text-transform: capitalize;
+         padding: 10px;
+     }
+
+
+     
+     /* about card starts  */
+
+.heading{
+   font-size: 20px;
+}
+.about__heading p{
+   font-size: 12px;
+}
+      .about__heading{
+         
+   text-align: center;
+ padding:  0;
+     }
+
+     
+     .about__2__para{
+         margin: 35px 0;
+     }
+
+     .about__img img{
+      margin: 20px 0;
+ }
+
+
+     
+                   /*  ? testimoial section starts  */
+
+                   #testimonial__section{
+                     padding: 30px 0;
+                  }
+                  
+                    #testimonial__section  .about__heading{
+                  margin-top: 0;
+                      padding:    0;
+                       text-transform: capitalize;
+                    }
+                  
+                    #testimonial__section .testimonial{
+                       display: block;
+                       background-color: #f5f5f5;
+                      margin-bottom: 50px;
+                    }
+
+                    #testimonial__section .testimonial__img{
+text-align: center;
+
+                    }
+                  
+                  
+                     .testimonial__details h5{
+                        font-size: 25px;
+                         text-transform: capitalize;
+                     }
+                  
+                  /*  ? testimonial section ends  */  
+
+
+                 /* *blog section starts */
+
+
+
+   #blog__section .about__heading{
+      margin-top: 90px;
+      margin-bottom: 800px;
+        padding: 20px 0 120px 0 ;
+       text-transform: capitalize;
+       background-color: var(--primary-color);
+       color: var(--third-color);
+   }
+
+/* * blog section ends  */
+
+
+/*  blog details starts  */
+
+   .blog__details { 
+
+       position: absolute;
+       top: 180px;
+   } 
+
+   .blog__details .blog__img img{
+       margin-bottom: 20px;
+   }
+
+   .blog__img .blog__links{
+     display: none;
+   }
+
+   .blog__details .blog__summary{
+       position: absolute;
+       bottom: 20px;
+       color: var(--third-color);
+      left: 10px;
+      right: 10px;
+     bottom: 30px;
+   }
+
+
+   .blog__details .blog__summary h2{
+     
+       text-transform: capitalize;
+       font-size: 18px;
+       font-weight: bold;
+   }
+
+   .blog__details .blog__summary a{
+      display: none;
+   }
+
+   .blog__details  .blog__list {
+       display: none;
+   }
+
+
+
+   .blog__details .blog__summary.extra{
+       width: 100%;
+      padding: 5px;
+
+   }
+
+   .blog__details .blog__summary.extra h2{
+       font-size: 18px;
+       font-weight: bold;
+       color: black;
+   }
+   .blog__details .blog__summary.extra{
+       left: 0;
+       bottom: 30px;
+   }
+
+/*  blog details ends  */
+
+
+/*  * footer section starts  */
+
+
+
+#footer{
+    padding: 60px  30px;
+}
+
+#footer .footer__para{
+  margin: 30px 0 ;
+  font-size: 14px;
+  color: var(--third-color);
+}
+
+#footer .footer__links{
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+
+
+ #footer h6{
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 30px;
+ }
+
+
+.footer__list li {
+    font-size: 16px;
+     padding-bottom: 20px;
+}
+
+
+/*  * footer section ends  */
+
+ 
+}
+
+/*! 0-575px ends   */
+
+
+               /*!  0 - 767px starts   */
+ 
+
+               @media ( max-width:767px){
+                  .navbar-brand img{
+                       width: 80px;
+                  }
+                  .navbar{
+                      padding: 15px 0;
+                    }
+                  
+                    .navbar .btn{
+                       margin: 15px 0;
+                       font-size: 17px;
+                    }
+
+
+                    .community__card{
+                     text-align: center;
+                     margin-bottom: 50px;
+                   }
+
+
+/* !courses section starts  */
+
+.courses__card{
+   margin-bottom: 100px;
+   padding-bottom: 50px;
+ }
+ 
+ .courses__card img{
+    width: 80px;
+ }
+ 
+   #courses .about__heading {
+     padding: 0;
+      text-transform: capitalize;
+      margin: 50px 0;
+ 
+   }
+ 
+ 
+   #courses  .customer__profile {
+     display: flex;
+     justify-content: space-between;
+     text-align: left;
+     margin: 20px 0;
+   }
+ 
+   #courses .customer__ratings ul{
+      margin-top: 20px;
+      padding: 0;
+   }
+ 
+   #courses .customer__ratings ol{
+      padding: 0;
+      font-size: 15px;
+   }
+ 
+    #courses .customer__ratings ul li{  
+       display: inline-block;  
+       font-size: 20px;
+    }
+    
+    #courses .customer__reveiw{
+        margin: 20px 0;
+    }
+ 
+    #courses  .profile__details h6{
+       font-size: 25px;
+
+    }
+ 
+    #courses  .profile__details h5{
+       font-size: 20px;
+
+    }
+ 
+    #courses  .profile__details{
+       margin-top: 10px;
+    }
+  
+    #courses  h1{
+        margin: 20px 0;
+        font-size: 24px;
+    }
+    #courses  .description__para{
+         font-size: 14px;
+    }
+ 
+    #courses hr{
+       margin: 30px 0;
+    }
+ 
+    #courses .courses__details {
+       display: block;
+    }
+    #courses .courses__details p{
+       font-size: 20px;
+       margin-bottom: 20px;
+    }
+ 
+    #courses .courses__details .coures__para{
+
+       margin-bottom: 5px;
+    }
+    #courses .courses__details div{
+       padding: 0;
+    }
+ 
+    .courses__card .btn{
+       position: absolute;
+       bottom: -25px;
+       left: 85px;
+    }
+ 
+ 
+ 
+ 
+ /*  !courses section ends  */
+ 
+
+
+                  
+                  /*   events section starts  */
+                  
+                  
+                  #events__section  .about__heading {
+                     margin-top: 0;
+                   }
+                  
+                   #events__section .events__card{
+                     display: block;
+                     background-color: #f5f5f5;
+                     padding: 20px;
+                     margin-bottom: 20px;
+                   transition: .5s;
+                  }
+                  
+                   .events__card .events__date{
+                     position: absolute;
+                     background-color: red;
+                     width: 70px;
+                     height: 70px;
+                     display: block;
+                     line-height: 70px;
+                     color: var(--third-color);
+                     text-align: center;
+                     bottom: 0;right: 0;
+                   }
+                   
+                   
+                   .events__card .events__details  h5{
+                     font-size: 25px;
+                     margin: 20px 0;
+                   }
+                   
+                   .events__card .events__details  button{
+                      font-size: 18px;
+                     margin: 0;
+                     text-transform: uppercase;
+                   }
+                   /*  events section ends  */
+
+                   #testimonial__section{
+                     padding: 30px 0;
+                  }
+                  #testimonial__section  .about__heading{
+                      margin-top: 20px ;
+                      padding-bottom: 15px;
+                  }
+
+
+                  /*  teachers section starts  */
+
+     #teachers__section .about__heading{
+      margin-top: 90px;
+      padding: 0;
+    }
+  
+    #teachers__section .teachers__profile{
+       margin-bottom: 50px;
+    }
+   #teachers__section .profile__details{
+      text-align: center;
+      padding-top: 20px;    
+   }
+
+   #teachers__section .profile__details H6{
+        font-size: 20px;
+         font-weight: bold;
+   }
+
+     
+   #teachers__section .profile__details P{
+         font-size: 14px;
+         margin: 0;
+   }
+/*  teachers section ends  */
+
+
+
+
+
+#footer .footer__contact ul{
+   padding: 0;
+}
+ #footer .footer__contact{
+    display: flex; 
+    justify-content: space-between;
+ }
+
+                  
+                     }
+
+
+                     /*!   0-767px ends  */
+
+
+
+                     /** 0-992 starts   */
+
+                     @media (max-width:992px){
+                   
+
+
+                     }
+                     /* * 0-992 ends  */
+
+
+                     /*  */
+
+                     @media (min-width:575px) and(max-width:767px){
+                        #blog__section .about__heading{
+                           margin-bottom: 1450px;
+                        }
+                        
+                     }
+
+                  
+                  
