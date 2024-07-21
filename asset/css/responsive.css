@@ -68,21 +68,41 @@
            padding: 0;
             text-transform: capitalize;
          }
+
+         .coures_card_slider{
+            display: none;
+          }
+
+           .coures_slider_btn{
+               display: none;
+           }
+
+      
+
     }
      /**_______________ 0-992px ends   __________________*/
 
+
     @media (min-width:992px){
+.about__card{
 
-      .coures__last__card{
-         display: none;
+     grid-template-columns: repeat(4 , 1fr);
+
+   }
+
+   #courses .coures__card__small{
+      display: none;
      }
-
 
 
     }
 
+/* *_______________ -___________________ */
 
 
+ @media (max-width:991px){
+
+ }
 
 
 
@@ -100,14 +120,7 @@
 
                @media (max-width:1200px){
             
-               .about__card{
-                display: none;
-                
-                }
-
-        .about__card__phone{
-          display: block;
-        }       
+          
 
         .about__heading{
           text-align: center;
@@ -333,7 +346,7 @@ margin: 30px 0 20px;
 
 .courses__card{
    margin-bottom: 100px;
-   padding-bottom: 50px;
+   padding-bottom: 30px;
 
  }
  
@@ -347,7 +360,11 @@ margin: 30px 0 20px;
       margin: 30px 0;
  
    }
- 
+
+   
+   .courses__card  button{
+       display: none;
+   }
  #courses .courses__details  div{
     margin-bottom: 15px;
  }
@@ -451,14 +468,6 @@ margin: 30px 0 20px;
 
 
 
-                     /** _________________ 0-992 starts  _____________  */
-
-                     @media (max-width:992px){
-                   
-
-
-                     }
-                     /* * 0-992 ends  */
 
 
                      /* * ___________ ________________________*/
@@ -649,13 +658,18 @@ transform: translateY(-60%);
                         display: block;
                      }
 
-
-
                           .footer__row{
       
          grid-template-columns: repeat(1, 1fr);
       }
  
+      .about__card{
+  
+           grid-template-columns: repeat(1 , 1fr);
+           gap: 30px;
+         
+          /* margin-left: 150px; */
+         }
                      
                   }
 
