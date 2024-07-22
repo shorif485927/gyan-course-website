@@ -20,6 +20,27 @@ $(function(){
     });
 
 
+   // * events section
+
+
+    $('.job__placement__slider').slick({
+       
+       slidesToShow:1,
+       slidesToScroll:1,
+      prevArrow:'.right__arrow.job',
+      nextArrow:'.left__arrow.job',
+      infinite:true,
+      // dots: true,
+      // dotsClass: " banner__dots"
+    });
+
+
+
+
+
+
+
+
 
  })
 
